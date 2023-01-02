@@ -104,5 +104,49 @@ a {
     font-size: 36px;
     font-weight: 300;
     padding: 150px;
+    margin-top: 25px;
+    margin-bottom: 25px;
 } 
+
+.signup-container {
+    display: flex;
+    width: 750px;
+    height: 100px;
+    justify-content:center;
+    align-items: center;
+    background-color: #3882f6;
+    color: #F9FAF8;
+    font-size: 16px;
+    padding: 30px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.signup-text {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.signup-button {
+    font-size: 18px;
+    background-color: #3882f6;
+    color: #E5E7EB;
+    padding: 8px 16px;
+    border-radius: 8px;
+    border: solid 2px #E5E7EB;
+    white-space: nowrap;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: #E5E7EB;
+    padding: 40px;
+}
+
 
